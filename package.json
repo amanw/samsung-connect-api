@@ -1,0 +1,19 @@
+{
+  "name": "samsung-connect-api",
+  "version": "1.0.0",
+  "description": "This will allow to connect to samsung motion sensors through Samsung Hub using web-hook",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "serve": "nodemon server.js"
+  },
+  "author": "Aman Wangde",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6",
+    "request": "^2.88.0"
+  }
+}
